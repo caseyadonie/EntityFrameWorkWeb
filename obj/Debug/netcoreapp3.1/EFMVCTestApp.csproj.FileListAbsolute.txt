@@ -398,9 +398,6 @@ C:\Users\oibiang\source\repos\EFMVCTestApp\bin\Debug\netcoreapp3.1\runtimes\win\
 C:\Users\oibiang\source\repos\EFMVCTestApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.AssemblyInfoInputs.cache
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.AssemblyInfo.cs
-C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.csproj.CoreCompileInputs.cache
-C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.RazorAssemblyInfo.cache
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.RazorAssemblyInfo.cs
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.TagHelpers.input.cache
@@ -424,3 +421,9 @@ C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.pdb
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.genruntimeconfig.cache
 C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\Razor\Views\Employee\List.cshtml.g.cs
+C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.csproj.CoreCompileInputs.cache
+C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\Razor\Views\Salary\Create.cshtml.g.cs
+C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\Razor\Views\Salary\List.cshtml.g.cs
+C:\Users\oibiang\source\repos\EFMVCTestApp\obj\Debug\netcoreapp3.1\EFMVCTestApp.csprojAssemblyReference.cache

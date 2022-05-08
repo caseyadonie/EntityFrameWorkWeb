@@ -20,15 +20,22 @@ namespace EFMVCTestApp.Controllers
         }
         public IActionResult Create(EmployeesDetailsInfo eInfo)
         {
-            /* if (!ModelState.IsValid)
-             {
-                 _context.Add(eInfo);
-                 int result = _context.SaveChanges();
-             }*/
-            if (!String.IsNullOrEmpty(eInfo.surName))
+
+            try
             {
-                _context.Add(eInfo);
-                int result = _context.SaveChanges();
+                if (!String.IsNullOrEmpty(eInfo.surName))
+                {
+                    _context.Add(eInfo);
+                    int result = _context.SaveChanges();
+
+                    List();
+                    return View("List");
+                }
+            }
+            catch (Exception ex)
+            {
+
+               
             }
 
             return View();
@@ -37,6 +44,17 @@ namespace EFMVCTestApp.Controllers
         {
             object eList=  _context.EmployeeDetailsList;
             return View(eList);
+        }
+        public IActionResult deleteEmployeeRecord(int Id)
+        {
+            EmployeesDetailsInfo esInfo = _context.EmployeeDetailsList.Where(x => x.Id == Id).FirstOrDefault();
+            _context.Remove(esInfo);
+            int result = _context.SaveChanges();
+
+            string url = this.Url.Action("List", "Employee");
+            
+            return Json(url);
+
         }
     }
 

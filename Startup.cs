@@ -38,6 +38,7 @@ namespace EFMVCTestApp
         {
             if (env.IsDevelopment())
             {
+                //dbctx.Database.EnsureDeleted();
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -46,6 +47,7 @@ namespace EFMVCTestApp
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+           
             dbctx.Database.EnsureCreated();
             app.UseHttpsRedirection();
             app.UseStaticFiles();

@@ -13,6 +13,8 @@ namespace EFMVCTestApp.Models
 
         }
         public DbSet<EmployeesDetailsInfo> EmployeeDetailsList { get; set; }
+
+        
         public DbSet<EmployeesSalaryInfo> EmployeesSalaryList { get; set; }
     }
 }

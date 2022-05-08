@@ -1,4 +1,4 @@
-﻿@model IEnumerable<EFMVCTestApp.Models.EmployeesDetailsInfo>
+﻿@model IEnumerable<EFMVCTestApp.Models.EmployeesSalaryInfo>
 
 @{
     ViewData["Title"] = "List";
@@ -7,18 +7,23 @@
 <h1>List</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-controller="Employee" asp-action="List">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.surName)
+                @Html.DisplayNameFor(model => model.EmpDFId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.otherNames)
+                @Html.DisplayNameFor(model => model.BasicSalary)
             </th>
-            
+            <th>
+                @Html.DisplayNameFor(model => model.Deductions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmountPaid)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -26,16 +31,21 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.surName)
+                @Html.DisplayFor(modelItem => item.EmpDFId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.otherNames)
+                @Html.DisplayFor(modelItem => item.BasicSalary)
             </td>
-           
+            <td>
+                @Html.DisplayFor(modelItem => item.Deductions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmountPaid)
+            </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a   class="btn btn-success" asp-controller="Salary" asp-action="Create" asp-route-id="@item.Id">Salary</a> |
-               <a href="#" class="btn btn-danger" onclick="ConfirmDelete(@item.Id)">
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a href="#" class="btn btn-danger" onclick="ConfirmDelete(@item.Id)">
                     <i class="glyphicon glyphicon-trash"></i>
                     Remove
                 </a>
@@ -70,9 +80,6 @@
 <input type="hidden" id="hiddenEmployeeId" />
 @section scripts{
 <script>
-   
-
-
         var ConfirmDelete = function (EmployeeId) {
 
             $("#hiddenEmployeeId").val(EmployeeId);
@@ -82,14 +89,12 @@
 
         var DeleteEmployee = function () {
 
-          
-
             var empId = $("#hiddenEmployeeId").val();
 
             $.ajax({
 
                 type: "POST",
-                url: "/Employee/deleteEmployeeRecord",
+                url: "/Salary/deleteSalaryRecord",
                 data: { Id: empId },
                 success: function (result) {
                    

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S8fKlRjjtpjCK6/CXmPcPww8cXK8j7sm1X/kotEXXXUlawcZFn6qinc5A0e29luowhRkBJUAFviV74FxjsgQ4g==",
+  "dgSpecHash": "bqqvyfBYxUDfjLp2L/jAxtfbJ3ga+Bs6qsCy1N5apVhjPlPh4ffOXEG08h7/GdOujvXfCLBsiFwa6z1gVSLX1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\oibiang\\source\\repos\\EFMVCTestApp\\EFMVCTestApp.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.16\\microsoft.entityframeworkcore.design.5.0.16.nupkg.sha512",
     "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.16\\microsoft.entityframeworkcore.relational.5.0.16.nupkg.sha512",
     "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.16\\microsoft.entityframeworkcore.sqlserver.5.0.16.nupkg.sha512",
+    "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.16\\microsoft.entityframeworkcore.tools.5.0.16.nupkg.sha512",
     "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\oibiang\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
